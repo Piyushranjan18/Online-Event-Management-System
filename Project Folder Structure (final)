@@ -1,0 +1,38 @@
+OnlineEventManagementSystem/
+├── src/
+│   └── com/oems/
+│       ├── model/
+│       │   ├── User.java
+│       │   ├── Event.java
+│       │   └── Booking.java
+│       ├── dao/
+│       │   ├── UserDAO.java
+│       │   ├── EventDAO.java
+│       │   └── BookingDAO.java
+│       ├── servlet/
+│       │   ├── RegisterServlet.java
+│       │   ├── LoginServlet.java
+│       │   ├── LogoutServlet.java
+│       │   ├── EventServlet.java
+│       │   ├── BookingServlet.java
+│       │   └── AdminServlet.java
+│       └── util/
+│           └── DBConnection.java
+├── webapp/
+│   ├── index.jsp
+│   ├── login.jsp
+│   ├── register.jsp
+│   ├── create_event.jsp
+│   ├── events.jsp
+│   ├── book_event.jsp
+│   ├── organizer_dashboard.jsp
+│   ├── admin_dashboard.jsp
+│   ├── attendee_dashboard.jsp
+│   ├── error.jsp
+│   └── css/
+│       └── styles.css
+├── WEB-INF/
+│   └── web.xml
+├── database/
+│   └── database.sql
+└── README.md
